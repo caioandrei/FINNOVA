@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    max-width: 400px;
+}
+.login-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #424242;
+    font-family: "Zen Kaku Gothic Antique";
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 2;
+}
