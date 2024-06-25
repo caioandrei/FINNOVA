@@ -5,9 +5,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .login-container {
     max-width: 400px;
 }
+
 .login-container img {
     width: 100px;
     height: 100px;
@@ -22,4 +24,19 @@ p {
     font-size: 10px;
     text-transform: uppercase;
     line-height: 2;
+}
+
+.custom-input {
+    border-radius: 0;
+    border-color: #7575757c; 
+    border-width: 0.5px;
+    padding: 5px 16px; 
+    margin: -1px 0;
+}    
+
+.custom-button {
+    background-color: #24243E; 
+    color: white; 
+    border-radius: 0; 
+    border-color: transparent;
 }
